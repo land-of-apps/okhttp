@@ -2,4 +2,5 @@ name: okhttp
 packages:
  - path: okhttp3
    exclude:
-   - okhttp3.internal.cache.DiskLruCacheTest
+   - okhttp3.Response
+   - okhttp3.internal.publicsuffix.PublicSuffixDatabaseTest
