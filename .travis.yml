@@ -7,4 +7,15 @@ jdk:
 import: land-of-apps/land-of-apps:travis/java-imports.yml
 
 script:
-- ./gradlew cleanTest :okhttp-hpacktests:test
+- ./gradlew cleanTest :mockwebserver:test
+- ./gradlew cleanTest :okcurl:test
+- ./gradlew cleanTest :okhttp:test
+- ./gradlew cleanTest :okhttp-bom:test
+- ./gradlew cleanTest :okhttp-brotli:test
+- ./gradlew cleanTest :okhttp-dnsoverhttps:test
+- ./gradlew cleanTest :okhttp-logging-interceptor:test
+- ./gradlew cleanTest :okhttp-sse:test
+- ./gradlew cleanTest :okhttp-testing-support:test
+- ./gradlew cleanTest :okhttp-tls:test
+- ./gradlew cleanTest :okhttp-urlconnection:test
+- ./gradlew cleanTest :samples:test

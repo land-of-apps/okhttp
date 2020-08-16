@@ -170,7 +170,7 @@ subprojects { project ->
 
   test {
     jvmArgs += "-Dokhttp.platform=$platform"
-    maxHeapSize = "1g"
+    maxHeapSize = "2g"
     ignoreFailures = true
     systemProperty 'appmap.debug', true
     systemProperty 'appmap.config.file', "$rootDir/appmap.yml"
