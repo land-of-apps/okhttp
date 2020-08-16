@@ -4,3 +4,4 @@ packages:
    exclude:
    - okhttp3.Response
    - okhttp3.internal.publicsuffix.PublicSuffixDatabaseTest
+   - okhttp3.internal.cache.DiskLruCacheTest
