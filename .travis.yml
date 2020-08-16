@@ -10,7 +10,6 @@ script:
 - ./gradlew cleanTest :mockwebserver:test
 - ./gradlew cleanTest :okcurl:test
 - ./gradlew cleanTest :okhttp:test
-- ./gradlew cleanTest :okhttp-bom:test
 - ./gradlew cleanTest :okhttp-brotli:test
 - ./gradlew cleanTest :okhttp-dnsoverhttps:test
 - ./gradlew cleanTest :okhttp-logging-interceptor:test
