@@ -18,3 +18,4 @@ script:
 - ./gradlew cleanTest :okhttp-tls:test
 - ./gradlew cleanTest :okhttp-urlconnection:test
 - ./gradlew cleanTest :samples:test
+- ./gradlew cleanTest :okhttp-hpacktests:test
